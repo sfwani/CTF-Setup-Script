@@ -69,6 +69,10 @@ sudo apt autoremove -y
 echo "Setting up CTF directories..."
 mkdir -p ~/CTF/Challenges ~/CTF/Writeups ~/CTF/Tools
 
+# Download SecLists into the Tools directory
+echo "Downloading SecLists repository..."
+git clone https://github.com/danielmiessler/SecLists.git ~/CTF/Tools/SecLists
+
 # Completion message
 echo "CTF environment setup complete! You can now focus on solving challenges."
 
