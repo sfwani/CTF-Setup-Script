@@ -11,10 +11,26 @@ The **CTF Challenge Setup Script** is a Bash script designed to automate the ins
 - **User-Friendly Output:** Provides clear feedback during installation, indicating the status of each tool and library, whether newly installed or already present.
 - **Compatibility:** Designed for Debian-based Linux distributions (e.g., Ubuntu) using `apt` as the package manager.
 
-## Tools and Libraries Included
+## Tools Installed by the CTF Setup Script
 
-- **Common Tools:** `git`, `nmap`, `netcat`, `aircrack-ng`, `sqlmap`, `hydra`, `john`, etc.
-- **Python Libraries:** `requests`, `beautifulsoup4`, `pwntools`, etc.
+- **Common Tools:**
+  - `git`
+  - `nmap`
+  - `netcat`
+  - `python3`
+  - `python3-pip`
+  - `aircrack-ng`
+  - `sqlmap`
+  - `hydra`
+  - `john`
+
+- **Python Libraries:**
+  - `requests`
+  - `beautifulsoup4`
+  - `pwntools`
+
+- **Clones SecLists:**
+  - SecLists will be cloned into the `~/CTF/Tools` repository.
 
 ## Usage
 
