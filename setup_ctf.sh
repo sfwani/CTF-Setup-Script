@@ -31,6 +31,7 @@ tools=(
     sqlmap
     hydra
     john
+    hashcat
 )
 
 # Loop through the list and install each tool
@@ -41,7 +42,6 @@ done
 # Install useful Python libraries
 python_libraries=(
     requests
-    beautifulsoup4
     pwntools
 )
 
