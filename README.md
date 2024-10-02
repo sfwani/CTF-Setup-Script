@@ -37,7 +37,9 @@ The **CTF Setup Script** is a Bash script designed to automate the installation 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/ctf-setup-script.git
-   cd ctf-setup-script
+   ```
+   ```bash
+      cd ctf-setup-script
    ```
 2. **Make the Script Executable:**
    ```bash
