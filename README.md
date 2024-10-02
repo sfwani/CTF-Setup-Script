@@ -1,4 +1,4 @@
-# CTF Challenge Setup Script
+# CTF Setup Script
 
 ## Overview
 
